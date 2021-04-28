@@ -66,7 +66,7 @@ func main() {
 	`
 	fmt.Println(len(description))
 
-	// char
+	// char??? dont have, char is int32
 	letter := 'g'
 	var otherChar int32 = 'a'
 	letterIsEqualsOtherChar := reflect.TypeOf(letter) == reflect.TypeOf(otherChar)
