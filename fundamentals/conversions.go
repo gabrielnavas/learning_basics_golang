@@ -53,5 +53,4 @@ func main() {
 	fmt.Println(more123)        // false
 	fmt.Println(zero)           // false
 	fmt.Println(one)            // true
-
 }
