@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"unsafe"
+)
 
 func main() {
 	fmt.Print("Mesma")
@@ -24,4 +27,13 @@ func main() {
 
 	// v is to all types
 	fmt.Printf("%v %v %v2f is married %v\n", name, age, weight, isMarried)
+
+	var a int8 = 21
+	var b byte = 21
+	var c int16 = 21
+	var d int32 = 21
+	fmt.Println(unsafe.Sizeof(a))
+	fmt.Println(unsafe.Sizeof(b))
+	fmt.Println(unsafe.Sizeof(c))
+	fmt.Println(unsafe.Sizeof(d))
 }
