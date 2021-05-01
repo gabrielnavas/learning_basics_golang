@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+func main() {
+	fmt.Printf("A12a: %v\n", A12a())
+	fmt.Printf("A12b: %v\n", A12b())
+}
+
 /*
 	Fundamentos-de-Matematica-Elementar-Volume-1-Conjuntos-e-Funcoes
 	A.12 - a
@@ -32,9 +37,4 @@ func A12b() []int {
 		}
 	}
 	return set
-}
-
-func main() {
-	fmt.Printf("A12a: %v\n", A12a())
-	fmt.Printf("A12b: %v\n", A12b())
 }
